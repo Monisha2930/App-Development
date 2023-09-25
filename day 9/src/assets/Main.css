@@ -1,0 +1,253 @@
+/* .head-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .left h1 {
+    margin: 0;
+  }
+  
+  .breadcrumb {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .breadcrumb li {
+    margin-right: 5px;
+  }
+  
+  .breadcrumb li:last-child {
+    display: none; /* Hide the last separator */
+  /* }
+  
+  .btn-download {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  /* Styling for the box info section */
+  /* .box-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .box-info li {
+    flex: 1;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 15px;
+    margin-right: 10px;
+    text-align: center;
+  }
+  
+  /* Styling for the table data section */
+  /* .table-data {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+  }
+  
+  .order,
+  .todo {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .order h3,
+  .todo h3 {
+    margin: 0;
+  }
+  
+  .order .head,
+  .todo .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .order i,
+  .todo i {
+    font-size: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .order table,
+  .todo .todo-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px; */ 
+  /* }
+  
+  .order th,
+  .order td,
+  .todo .todo-list li {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .order th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+  }
+  
+  .order .status,
+  .todo-list .completed {
+    color: #28a745;
+    font-weight: bold;
+  }
+  
+  .order .status.process,
+  .todo-list .not-completed {
+    color: #ffc107;
+    font-weight: bold;
+  }
+  
+  .order .status.pending {
+    color: #dc3545;
+    font-weight: bold;
+  } */
+/*   
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap'); */
+
+/* Main.css */
+
+/* Dashboard header */
+.head-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.head-title h1 {
+  font-size: 24px;
+}
+
+.breadcrumb {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb li {
+  display: inline;
+  margin: 0 5px;
+  font-size: 14px;
+}
+
+.btn-download {
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.btn-download i {
+  margin-right: 5px;
+}
+
+/* Dashboard data boxes */
+.box-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.box-info li {
+  flex: 1;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.box-info h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box-info p {
+  font-size: 14px;
+  color: #888;
+}
+
+/* Recent Orders table */
+.table-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.order h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Todo List */
+.todo {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.todo h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Define styles for completed and not-completed todos */
+.todo-list li.completed {
+  color: #28a745;
+}
+
+.todo-list li.not-completed {
+  color: #dc3545;
+}
+
+/* Add more specific styles as needed */
